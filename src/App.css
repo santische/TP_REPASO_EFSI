@@ -211,3 +211,35 @@
   font-size: 0.95rem;
   color: #888;
 }
+
+/* ===== BOTÓN CARGAR MÁS ===== */
+.cargar-mas-contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.cargar-mas-btn {
+  padding: 12px 36px;
+  background-color: transparent;
+  color: #16a34a;
+  border: 2px solid #16a34a;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.cargar-mas-btn:hover:not(:disabled) {
+  background-color: #16a34a;
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(22, 163, 74, 0.4);
+}
+
+.cargar-mas-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
