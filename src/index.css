@@ -1,0 +1,13 @@
+/* Reset básico y fuente general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #cccccc;
+  min-height: 100vh;
+}
